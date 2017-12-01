@@ -1,0 +1,2 @@
+Some instruction about setting up secure boot on FreeBSD in Qemu or on hardware
+uses a single combined loader and kernel, instead of a multi-stage boot process
