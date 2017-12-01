@@ -33,7 +33,7 @@ To build a bootable loader/kernel object it is necessary to reserve memory in  t
 
 
 ### 2.1. Create Boot Image
-The boot filesystem outlined below contains: the kernel, the kernel object directory, and the loader FOURTH scripts.
+The boot filesystem outlined below contains: the kernel, the kernel object directory, and the loader FORTH scripts.
 
 |Note|
 |----|
