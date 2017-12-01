@@ -78,11 +78,6 @@ $ cd /usr/src/stand
 $ make MD_IMAGE_SIZE=${BOOTFS_SIZE_PLUS_SAFETY}
 ```
 
-|Note|
-|-----|
-|To clean after building the loader you must run `make clean`, with `MD_IMAGE_SIZE` defined, otherwise the memory disk object will not be cleaned. i.e:|
-|`$ make MD_IMAGE_SIZE=0 clean`|
-
 
 ### 2.3. Embed Boot Image In Loader
 To embed `bootfs.img` into the loader:
